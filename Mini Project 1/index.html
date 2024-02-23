@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project 1</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: lightcoral;
+        }
+        #header{
+            background-color: lightgreen;
+            padding: 20px;
+        }
+        #header > span{
+            margin-left: 10px;
+        }
+        #header > span > a{
+            text-decoration: none;
+            color: black;
+            font-size: 1.5em;
+        }
+        #container{
+            padding: 10px;
+        }
+        #container > h2{
+            padding: 15px;
+        }
+        #container > ul{
+            padding: 20px 0 0 40px;
+        }
+
+        #image-container > img{
+            display: block;
+            margin: auto;
+            width: 30%;
+        }
+        
+        #image-container > figcaption{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <span><a href="#">Index</a></span>
+        <span><a href="#">Food</a></span>
+        <span><a href="#">About</a></span>
+    </div>
+    <div id="container">
+        <h2>Top 5 Favourite Foods</h2>
+        <ul>
+            <li><a href="#">Biryani</a></li>
+            <li><a href="#">Pizza</a></li>
+            <li><a href="#">Lasagna</a></li>
+            <li><a href="#">Burger</a></li>
+            <li><a href="#">Caesar Salad</a></li>
+        </ul>
+    </div>
+    <div id="image-container">
+        <img src="./pizza.png" alt="pizza"/>
+        <figcaption><strong>Picture: Pepperoni Pizza</strong></figcaption>
+    </div>
+    
+    
+</body>
+</html>
